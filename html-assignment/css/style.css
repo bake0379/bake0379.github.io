@@ -1,0 +1,47 @@
+
+header {
+    background-color: hsla(153, 83%, 39%, 0.436);
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: rgba(22, 78, 219, 0.384)
+}
+
+footer {
+    background-color: hsla(153, 83%, 39%, 0.436);
+}
+
+.site-title {
+    color:hsl(36, 78%, 29%);
+    text-indent: 30px;
+}
+
+.site-nav > a {
+    color: rgb(20, 65, 150);
+    text-decoration: none;
+    background-color: hsla(36, 78%, 29%, 75%);
+    border-style: solid;
+    border-color: hsl(36, 78%, 29%);
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.site-nav > a:hover {
+    border-style: dotted;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.hobbies {
+    list-style-type: square;
+}
+
+ul.hobbies li:nth-child(odd){
+    background-color: hsla(36, 78%, 29%, 0.671);
+}
