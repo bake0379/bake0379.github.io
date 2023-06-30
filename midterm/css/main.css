@@ -1,0 +1,129 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.4;
+    background-color: #aad4cf;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.focus {
+    background-color: #D4E9E7;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+.heading {
+    position: relative;
+}
+
+#wide-starfish {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4.5rem;
+    top: 40%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.mainmenu ul {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mainmenu ul li:first-child{
+    height: 40px;
+    border-right: 1px solid black;
+}
+
+.mainmenu ul li:last-child{
+    height: 40px;
+    border-left: 1px solid black;
+}
+
+.mainmenu ul li a {
+    display: inline-block;
+
+}
+
+#lone-starfish {
+    width: 280px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-bottom: 0px;
+}
+
+ul {
+    line-height: 1rem;
+    padding: 20px;
+    margin: 0px;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 1080px;
+    border: 1px solid black;
+    padding: 15px;
+    line-height: 2;
+}
+
+form .buttons{ 
+    align-items: left;
+    display: inline-flex;
+}
+
+form input {
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #D4E9E7;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+form p {
+    font-size: 1.8rem;
+}
+
+footer {
+    text-align: right;
+    margin-right: 50px;
+}
