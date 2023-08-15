@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     
 <header>
     
-    <div class="home">
-        <img src="images/logo.png" alt="three-star logo">
-        <nav>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="about-us">About Us</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="team">Team</a></li>
-              <li><a href="contact">Contact</a>
-            </li>
-            </ul>
-            <form action="/search" method="get">
+    <div class="navigate">
+        <div class="block">
+            <img src="images/logo.png" alt="three-star logo">
+        </div>
+            
+            <div class="block"><a href="#home">Home</a></div>
+            <div class="block"><a href="about-us">About Us</a></div>
+            <div class="block"><a href="#services">Services</a></div>
+            <div class="block"><a href="team">Team</a></div>
+            <div class="block"><a href="contact">Contact</a></div>
+            <div class="block"><form action="search" method="get">
                 <input type="search" id="search" name="searchbar" placeholder="Search">
-                <!-- <button type="submit"> *** </button> -->
-                <!-- add the magnifying glass icon here -->
+                <span class="material-symbols-outlined">
+                    search
+                </span>
             </form>
-          </nav>
+            </div>
     </div>
 
 </header>
 
 <main>
 
-    <div class="big-banner">
+    <div class="home">
         <img src="images/main-banner.jpg" alt="main banner">
         <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit  Magnam rerum coluptas cesciunt quam nostrum similique nihil laboriosam providen neque, recusandae voluptate temporisbus!  Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
